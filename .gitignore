@@ -18,6 +18,8 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
+application.yml
+
 .idea
 *.iws
 *.iml
@@ -35,3 +37,10 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Docker ###
+Dockerfile
+docker-compose.yml
+
+### yml file ###
+src/main/**/application-local.yml
